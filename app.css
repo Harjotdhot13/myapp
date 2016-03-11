@@ -1,0 +1,130 @@
+/* unvisited link */
+a: link {
+    color: red;
+  }
+  /* visited link */
+  /* mouse over link */
+a: hover {
+    color: hotpink;
+  }
+  /* selected link */
+table {
+  border - collapse: collapse;
+  width: 100 % ;
+}
+th {
+  border - style: solid;
+  border - color: red;
+  font - size: 30 px;
+  font - weight: bold;
+  font - family: Bohema;
+  font - weight: normal;
+  color: black;
+  text - shadow: 1 px 1 px rgb(255, 255, 255, 1);
+}
+td {
+  text - align: left;
+  padding: 8 px;
+}
+tr: nth - child(even) {
+  background - color: #f2f2f2
+}.details {
+  text - align: center;
+  font - family: Lucida;
+  font - style: oblique;
+}.name {
+  text - align: center;
+  font - family: Lucida;
+  font - style: bold;
+}.avatar {
+  text - align: center;
+}
+form {
+  width: 500 px;
+  margin: 50 px auto;
+}.search {
+  background: #063642;
+  color: # EEE8D5;
+  width: 90 % ;
+  min - width: 320 px;
+  max - width: 500 px;
+  margin: 0 auto;
+  margin - top: 30 px;
+  border - radius: 20 px;
+  padding: 20 px 30 px;
+  z - index: 20;
+}.search h1 {
+  color: #EEE8D5;
+}.search label {
+  display: none;
+}.search input {
+  font - family: 'Droid Sans', sans - serif;
+  width: 100 % ;
+  padding: 10 px 0 10 px 15 px;
+  font - size: 1 rem;
+  color: #475B62;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  outline: 0;
+}
+
+.search .formgroup input {
+  border: 1px solid rgba(0,0,0,0.3);
+  display: inline;
+  width: auto;
+}
+
+.search label.formgroup {
+  display: inline;
+  width: auto;
+}
+
+.search select {
+  display: inline;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  color: # 475 B62;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1 px solid rgba(0, 0, 0, 0.3);
+  border - radius: 10 px;
+  outline: 0;
+}.button {
+  position: relative;
+  padding: 6 px 15 px;
+  left: -8 px;
+  border: 2 px solid #207cca;
+                  background-color:# 207 cca;
+  color: #fafafa;
+}.button: hover {
+    background - color: #fafafa;
+    color: #207cca;
+  }
+  .menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+  }
+
+  .menu:before {
+    content: "[";
+  }
+
+  .menu:after {
+    content: "]";
+  }
+
+  .menu > li {
+    display: inline;
+  }
+
+  .menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+  }
+
+  .menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+  }
